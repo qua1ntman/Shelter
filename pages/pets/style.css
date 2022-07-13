@@ -702,8 +702,8 @@ footer {
 @media screen and (max-width: 767px) {
   .display-back {
     z-index: -1 !important;
-    opacity: 0;
     top: -100vh !important;
+    opacity: 0;
   }
 }
 
@@ -719,6 +719,12 @@ footer {
 
 .display-back-modal {
   z-index: -1 !important;
+  opacity: 0;
+}
+
+.hide-modal {
+  z-index: -1 !important;
+  top: -100vh !important;
   opacity: 0;
 }
 

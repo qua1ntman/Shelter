@@ -728,7 +728,7 @@ class Menu {
   hideMenu(target) {
       if (target.className === 'under-nav block-opacity') return
       this.burger.checked = false
-      this.nav.className = 'display-back'
+      this.nav.className = 'hide-modal'
       document.body.style.overflowY = 'auto'
   }
 }

@@ -1288,4 +1288,10 @@ footer {
   opacity: 0;
 }
 
+.hide-modal {
+  z-index: -1 !important;
+  top: -100vh !important;
+  opacity: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

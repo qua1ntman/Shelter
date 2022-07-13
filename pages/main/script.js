@@ -198,7 +198,7 @@ class Cards extends Data {
   
     hideModal(target) {
       if (target !== this.modal && !target.closest('#close-btn')) return;
-      this.modal.className = 'display-back'
+      this.modal.className = 'hide-modal'
       document.body.style.overflowY = 'auto'
     }
 }
